@@ -1,0 +1,33 @@
+#base huditemeffectmeter.res
+
+"Resource/UI/HudItemEffectMeter_Scout.res"
+{
+	HudItemEffectMeter{}
+
+	"ItemEffectMeterLabel"
+	{
+		"ypos"					"105"
+	}
+
+	"ItemEffectMeter"
+	{
+		"ypos"					"104"
+	}
+
+	//== #base custom ===========================
+
+	"EffectMeterDivider25"
+	{
+		"ypos"	"104"
+	}
+
+	"EffectMeterDivider50"
+	{
+		"ypos"	"104"
+	}
+
+	"EffectMeterDivider75"
+	{
+		"ypos"	"104"
+	}
+}

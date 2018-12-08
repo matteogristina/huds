@@ -1,0 +1,86 @@
+#base HudItemEffectMeter_SodaPopper.res
+
+"Resource/UI/HudItemEffectMeter_Demoman.res"
+{
+	HudItemEffectMeter{}
+
+	"ItemEffectMeterCount"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCount"
+		"xpos"					"222"
+		"ypos"					"150"
+		"zpos"					"2"
+		"wide"					"51"
+		"tall"					"22"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"west"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"GameFont33"
+		"fgcolor"				"White"
+	}
+
+	//== custom =================================
+
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"ItemEffectMeterCountShadow"
+		"xpos"				"222"
+		"ypos"				"151"
+		"wide"				"51"
+		"tall"				"22"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"labelText"			"%progresscount%"
+		"textAlignment"		"west"
+		"font"				"GameFont33"
+		"fgcolor"			"ActualGray"
+	}
+
+	"ItemEffectMeterIcon"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"ItemEffectMeterIcon"
+		"xpos"				"208"
+		"ypos"				"156"
+		"wide"				"11"
+		"tall"				"11"
+		"visible"			"1"
+		"image"				"../hud/hud_obj_status_kill_64"
+	}
+
+	//== disabled ===============================
+
+	"ItemEffectMeter"
+	{
+		"visible"				"0"
+	}
+
+	"ItemEffectMeterLabel"
+	{
+		"visible"				"0"
+	}
+
+	//== #base disabled =========================
+
+	"EffectMeterDivider25"
+	{
+		"visible"	"0"
+	}
+
+	"EffectMeterDivider50"
+	{
+		"visible"	"0"
+	}
+
+	"EffectMeterDivider75"
+	{
+		"visible"	"0"
+	}
+}
